@@ -37,7 +37,7 @@ document.querySelector("#mute").addEventListener("click", function() {
 	console.log("The value of mute is " + video.muted)
 	if (video.muted == false) {
 		video.muted = true
-		document.querySelector("#mute").innerHTML = "UnMute" 
+		document.querySelector("#mute").innerHTML = "Unmute" 
 		console.log("Muted")
 	}
 	else {
